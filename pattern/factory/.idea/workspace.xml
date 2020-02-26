@@ -89,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/factory/PaymentTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
@@ -98,68 +98,113 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="uml://JAVA/com.factory.PaymentTest">
           <provider selected="true" editor-type-id="UmlEditorProvider">
             <state>
               <ID>JAVA</ID>
               <OriginalElement>com.factory.PaymentTest</OriginalElement>
               <nodes>
-                <node x="145.99999999999997" y="304.0">com.factory.pay.CrossBorderPay</node>
-                <node x="230.99999999999997" y="201.0">com.factory.pay.IPay</node>
-                <node x="209.0" y="103.0">com.factory.CrossBorderPayFactory</node>
-                <node x="209.0" y="0.0">com.factory.IPayFactory</node>
-                <node x="0.0" y="103.0">com.factory.WechatPayFactory</node>
-                <node x="308.0" y="304.0">com.factory.pay.UnionPay</node>
-                <node x="454.0" y="304.0">com.factory.pay.WechatPay</node>
-                <node x="418.0" y="103.0">com.factory.DomesticPayFactory</node>
-                <node x="0.0" y="402.0">com.factory.PaymentTest</node>
-                <node x="0.0" y="304.0">com.factory.pay.AliPay</node>
+                <node x="0.0" y="113.0">com.factory.pay.CrossBorderPay</node>
+                <node x="398.4522727272728" y="0.0">com.factory.pay.IPay</node>
+                <node x="179.3204545454546" y="113.0">com.factory.IPayFactory</node>
+                <node x="467.3204545454546" y="113.0">com.factory.pay.UnionPay</node>
+                <node x="321.3204545454546" y="113.0">com.factory.pay.WechatPay</node>
+                <node x="265.94545454545465" y="388.0">com.factory.PaymentTest</node>
+                <node x="33.75000000000006" y="239.0">com.factory.ExternalPayFactory</node>
+                <node x="428.8204545454546" y="216.0">com.factory.DomesticPayFactory</node>
+                <node x="613.3204545454546" y="113.0">com.factory.pay.AliPay</node>
               </nodes>
               <notes />
               <edges>
                 <edge source="com.factory.pay.UnionPay" target="com.factory.pay.IPay">
                   <point x="0.0" y="-26.5" />
-                  <point x="371.0" y="284.0" />
-                  <point x="309.75" y="284.0" />
-                  <point x="15.75" y="26.5" />
+                  <point x="530.3204545454546" y="93.0" />
+                  <point x="471.9522727272728" y="93.0" />
+                  <point x="10.5" y="26.5" />
+                </edge>
+                <edge source="com.factory.ExternalPayFactory" target="com.factory.pay.IPay">
+                  <point x="0.0" y="-38.0" />
+                  <point x="150.75000000000006" y="196.0" />
+                  <point x="152.50000000000006" y="196.0" />
+                  <point x="152.50000000000006" y="83.0" />
+                  <point x="429.9522727272728" y="83.0" />
+                  <point x="-31.5" y="26.5" />
                 </edge>
                 <edge source="com.factory.DomesticPayFactory" target="com.factory.IPayFactory">
-                  <point x="0.0" y="-26.5" />
-                  <point x="512.5" y="78.0" />
-                  <point x="366.5" y="78.0" />
-                  <point x="63.0" y="26.5" />
+                  <point x="-81.19999999999993" y="-61.0" />
+                  <point x="449.12045454545466" y="196.0" />
+                  <point x="270.8204545454546" y="196.0" />
+                  <point x="30.5" y="26.5" />
                 </edge>
                 <edge source="com.factory.pay.AliPay" target="com.factory.pay.IPay">
                   <point x="0.0" y="-26.5" />
-                  <point x="63.0" y="274.0" />
-                  <point x="246.74999999999997" y="274.0" />
-                  <point x="-47.25" y="26.5" />
-                </edge>
-                <edge source="com.factory.CrossBorderPayFactory" target="com.factory.IPayFactory">
-                  <point x="0.0" y="-26.5" />
-                  <point x="0.0" y="26.5" />
+                  <point x="676.3204545454546" y="83.0" />
+                  <point x="492.9522727272728" y="83.0" />
+                  <point x="31.5" y="26.5" />
                 </edge>
                 <edge source="com.factory.pay.CrossBorderPay" target="com.factory.pay.IPay">
                   <point x="0.0" y="-26.5" />
-                  <point x="216.99999999999997" y="284.0" />
-                  <point x="278.25" y="284.0" />
-                  <point x="-15.75" y="26.5" />
+                  <point x="71.0" y="73.0" />
+                  <point x="408.9522727272728" y="73.0" />
+                  <point x="-52.5" y="26.5" />
                 </edge>
-                <edge source="com.factory.WechatPayFactory" target="com.factory.IPayFactory">
-                  <point x="0.0" y="-26.5" />
-                  <point x="94.5" y="78.0" />
-                  <point x="240.5" y="78.0" />
-                  <point x="-63.0" y="26.5" />
+                <edge source="com.factory.ExternalPayFactory" target="com.factory.IPayFactory">
+                  <point x="78.0" y="-38.0" />
+                  <point x="228.75000000000006" y="196.0" />
+                  <point x="209.8204545454546" y="196.0" />
+                  <point x="-30.5" y="26.5" />
+                </edge>
+                <edge source="com.factory.PaymentTest" target="com.factory.ExternalPayFactory">
+                  <point x="-21.875000000000057" y="-26.5" />
+                  <point x="331.5704545454546" y="358.0" />
+                  <point x="209.25000000000006" y="358.0" />
+                  <point x="58.5" y="38.0" />
+                </edge>
+                <edge source="com.factory.DomesticPayFactory" target="com.factory.pay.IPay">
+                  <point x="81.19999999999999" y="-61.0" />
+                  <point x="611.5204545454546" y="196.0" />
+                  <point x="749.8204545454546" y="196.0" />
+                  <point x="749.8204545454546" y="73.0" />
+                  <point x="513.9522727272729" y="73.0" />
+                  <point x="52.5" y="26.5" />
                 </edge>
                 <edge source="com.factory.pay.WechatPay" target="com.factory.pay.IPay">
                   <point x="0.0" y="-26.5" />
-                  <point x="517.0" y="274.0" />
-                  <point x="341.25" y="274.0" />
-                  <point x="47.25" y="26.5" />
+                  <point x="384.3204545454546" y="93.0" />
+                  <point x="450.9522727272728" y="93.0" />
+                  <point x="-10.5" y="26.5" />
+                </edge>
+                <edge source="com.factory.DomesticPayFactory" target="com.factory.pay.WechatPay">
+                  <point x="-40.599999999999966" y="-61.0" />
+                  <point x="489.72045454545463" y="186.0" />
+                  <point x="384.3204545454546" y="186.0" />
+                  <point x="0.0" y="26.5" />
+                </edge>
+                <edge source="com.factory.PaymentTest" target="com.factory.DomesticPayFactory">
+                  <point x="65.62499999999994" y="-26.5" />
+                  <point x="419.0704545454546" y="368.0" />
+                  <point x="581.0704545454546" y="368.0" />
+                  <point x="50.75" y="61.0" />
+                </edge>
+                <edge source="com.factory.DomesticPayFactory" target="com.factory.pay.AliPay">
+                  <point x="40.60000000000002" y="-61.0" />
+                  <point x="570.9204545454546" y="186.0" />
+                  <point x="676.3204545454546" y="186.0" />
+                  <point x="0.0" y="26.5" />
+                </edge>
+                <edge source="com.factory.DomesticPayFactory" target="com.factory.pay.UnionPay">
+                  <point x="0.0" y="-61.0" />
+                  <point x="0.0" y="26.5" />
+                </edge>
+                <edge source="com.factory.ExternalPayFactory" target="com.factory.pay.CrossBorderPay">
+                  <point x="-78.0" y="-38.0" />
+                  <point x="72.75000000000006" y="196.0" />
+                  <point x="71.0" y="196.0" />
+                  <point x="0.0" y="26.5" />
                 </edge>
               </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-332.0" y="166.0" />
+              <settings layout="Hierarchic Group" zoom="1.0" x="174.0" y="371.5" />
               <SelectedNodes />
               <Categories>
                 <Category>Inner Classes</Category>
@@ -247,7 +292,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="width" value="1920" />
     <option name="height" value="1047" />
@@ -268,6 +313,32 @@
               <item name="factory" type="b2602c69:ProjectViewProjectNode" />
               <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="factory" type="b2602c69:ProjectViewProjectNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -277,7 +348,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582691964506" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582695440681" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../kejian/01.架构师内功心法/02.经典框架中常见的设计模式/1.设计模式总览及工厂模式详解/源码笔记/【课堂源码】设计模式总览及工厂模式详解/gupaoedu-vip-pattern-abstractfactory" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -338,17 +409,18 @@
       <option name="presentableId" value="Default" />
       <updated>1582609872703</updated>
       <workItem from="1582609876899" duration="585000" />
-      <workItem from="1582679088362" duration="8551000" />
+      <workItem from="1582679088362" duration="8664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9136000" />
+    <option name="totallyTimeSpent" value="9249000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -360,7 +432,7 @@
       <window_info anchor="bottom" id="Debug with VisualVM" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32887402" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -513,78 +585,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="uml://JAVA/com.factory.PaymentTest">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>com.factory.PaymentTest</OriginalElement>
-          <nodes>
-            <node x="145.99999999999997" y="304.0">com.factory.pay.CrossBorderPay</node>
-            <node x="230.99999999999997" y="201.0">com.factory.pay.IPay</node>
-            <node x="209.0" y="103.0">com.factory.CrossBorderPayFactory</node>
-            <node x="209.0" y="0.0">com.factory.IPayFactory</node>
-            <node x="0.0" y="103.0">com.factory.WechatPayFactory</node>
-            <node x="308.0" y="304.0">com.factory.pay.UnionPay</node>
-            <node x="454.0" y="304.0">com.factory.pay.WechatPay</node>
-            <node x="418.0" y="103.0">com.factory.DomesticPayFactory</node>
-            <node x="0.0" y="402.0">com.factory.PaymentTest</node>
-            <node x="0.0" y="304.0">com.factory.pay.AliPay</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="com.factory.pay.UnionPay" target="com.factory.pay.IPay">
-              <point x="0.0" y="-26.5" />
-              <point x="371.0" y="284.0" />
-              <point x="309.75" y="284.0" />
-              <point x="15.75" y="26.5" />
-            </edge>
-            <edge source="com.factory.DomesticPayFactory" target="com.factory.IPayFactory">
-              <point x="0.0" y="-26.5" />
-              <point x="512.5" y="78.0" />
-              <point x="366.5" y="78.0" />
-              <point x="63.0" y="26.5" />
-            </edge>
-            <edge source="com.factory.pay.AliPay" target="com.factory.pay.IPay">
-              <point x="0.0" y="-26.5" />
-              <point x="63.0" y="274.0" />
-              <point x="246.74999999999997" y="274.0" />
-              <point x="-47.25" y="26.5" />
-            </edge>
-            <edge source="com.factory.CrossBorderPayFactory" target="com.factory.IPayFactory">
-              <point x="0.0" y="-26.5" />
-              <point x="0.0" y="26.5" />
-            </edge>
-            <edge source="com.factory.pay.CrossBorderPay" target="com.factory.pay.IPay">
-              <point x="0.0" y="-26.5" />
-              <point x="216.99999999999997" y="284.0" />
-              <point x="278.25" y="284.0" />
-              <point x="-15.75" y="26.5" />
-            </edge>
-            <edge source="com.factory.WechatPayFactory" target="com.factory.IPayFactory">
-              <point x="0.0" y="-26.5" />
-              <point x="94.5" y="78.0" />
-              <point x="240.5" y="78.0" />
-              <point x="-63.0" y="26.5" />
-            </edge>
-            <edge source="com.factory.pay.WechatPay" target="com.factory.pay.IPay">
-              <point x="0.0" y="-26.5" />
-              <point x="517.0" y="274.0" />
-              <point x="341.25" y="274.0" />
-              <point x="47.25" y="26.5" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-332.0" y="166.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Inner Classes</Category>
-            <Category>Properties</Category>
-            <Category>Methods</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/factory/CrossBorderPayFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -637,6 +637,123 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="14" column="73" lean-forward="true" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.factory.PaymentTest">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.factory.PaymentTest</OriginalElement>
+          <nodes>
+            <node x="0.0" y="113.0">com.factory.pay.CrossBorderPay</node>
+            <node x="398.4522727272728" y="0.0">com.factory.pay.IPay</node>
+            <node x="179.3204545454546" y="113.0">com.factory.IPayFactory</node>
+            <node x="467.3204545454546" y="113.0">com.factory.pay.UnionPay</node>
+            <node x="321.3204545454546" y="113.0">com.factory.pay.WechatPay</node>
+            <node x="265.94545454545465" y="388.0">com.factory.PaymentTest</node>
+            <node x="33.75000000000006" y="239.0">com.factory.ExternalPayFactory</node>
+            <node x="428.8204545454546" y="216.0">com.factory.DomesticPayFactory</node>
+            <node x="613.3204545454546" y="113.0">com.factory.pay.AliPay</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.factory.pay.UnionPay" target="com.factory.pay.IPay">
+              <point x="0.0" y="-26.5" />
+              <point x="530.3204545454546" y="93.0" />
+              <point x="471.9522727272728" y="93.0" />
+              <point x="10.5" y="26.5" />
+            </edge>
+            <edge source="com.factory.ExternalPayFactory" target="com.factory.pay.IPay">
+              <point x="0.0" y="-38.0" />
+              <point x="150.75000000000006" y="196.0" />
+              <point x="152.50000000000006" y="196.0" />
+              <point x="152.50000000000006" y="83.0" />
+              <point x="429.9522727272728" y="83.0" />
+              <point x="-31.5" y="26.5" />
+            </edge>
+            <edge source="com.factory.DomesticPayFactory" target="com.factory.IPayFactory">
+              <point x="-81.19999999999993" y="-61.0" />
+              <point x="449.12045454545466" y="196.0" />
+              <point x="270.8204545454546" y="196.0" />
+              <point x="30.5" y="26.5" />
+            </edge>
+            <edge source="com.factory.pay.AliPay" target="com.factory.pay.IPay">
+              <point x="0.0" y="-26.5" />
+              <point x="676.3204545454546" y="83.0" />
+              <point x="492.9522727272728" y="83.0" />
+              <point x="31.5" y="26.5" />
+            </edge>
+            <edge source="com.factory.pay.CrossBorderPay" target="com.factory.pay.IPay">
+              <point x="0.0" y="-26.5" />
+              <point x="71.0" y="73.0" />
+              <point x="408.9522727272728" y="73.0" />
+              <point x="-52.5" y="26.5" />
+            </edge>
+            <edge source="com.factory.ExternalPayFactory" target="com.factory.IPayFactory">
+              <point x="78.0" y="-38.0" />
+              <point x="228.75000000000006" y="196.0" />
+              <point x="209.8204545454546" y="196.0" />
+              <point x="-30.5" y="26.5" />
+            </edge>
+            <edge source="com.factory.PaymentTest" target="com.factory.ExternalPayFactory">
+              <point x="-21.875000000000057" y="-26.5" />
+              <point x="331.5704545454546" y="358.0" />
+              <point x="209.25000000000006" y="358.0" />
+              <point x="58.5" y="38.0" />
+            </edge>
+            <edge source="com.factory.DomesticPayFactory" target="com.factory.pay.IPay">
+              <point x="81.19999999999999" y="-61.0" />
+              <point x="611.5204545454546" y="196.0" />
+              <point x="749.8204545454546" y="196.0" />
+              <point x="749.8204545454546" y="73.0" />
+              <point x="513.9522727272729" y="73.0" />
+              <point x="52.5" y="26.5" />
+            </edge>
+            <edge source="com.factory.pay.WechatPay" target="com.factory.pay.IPay">
+              <point x="0.0" y="-26.5" />
+              <point x="384.3204545454546" y="93.0" />
+              <point x="450.9522727272728" y="93.0" />
+              <point x="-10.5" y="26.5" />
+            </edge>
+            <edge source="com.factory.DomesticPayFactory" target="com.factory.pay.WechatPay">
+              <point x="-40.599999999999966" y="-61.0" />
+              <point x="489.72045454545463" y="186.0" />
+              <point x="384.3204545454546" y="186.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="com.factory.PaymentTest" target="com.factory.DomesticPayFactory">
+              <point x="65.62499999999994" y="-26.5" />
+              <point x="419.0704545454546" y="368.0" />
+              <point x="581.0704545454546" y="368.0" />
+              <point x="50.75" y="61.0" />
+            </edge>
+            <edge source="com.factory.DomesticPayFactory" target="com.factory.pay.AliPay">
+              <point x="40.60000000000002" y="-61.0" />
+              <point x="570.9204545454546" y="186.0" />
+              <point x="676.3204545454546" y="186.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="com.factory.DomesticPayFactory" target="com.factory.pay.UnionPay">
+              <point x="0.0" y="-61.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+            <edge source="com.factory.ExternalPayFactory" target="com.factory.pay.CrossBorderPay">
+              <point x="-78.0" y="-38.0" />
+              <point x="72.75000000000006" y="196.0" />
+              <point x="71.0" y="196.0" />
+              <point x="0.0" y="26.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="174.0" y="371.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
