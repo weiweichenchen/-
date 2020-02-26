@@ -11,31 +11,6 @@
       <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/pay/IPay.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/pay/UnionPay.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/factory/pay/WechatPay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/leetcode/src/main/java/com/weiwei/FindMedianSortedArrays_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/leetcode/src/main/java/com/weiwei/LengthOfLongestSubstring_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/prototype/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/prototype/src/main/java/com/weiwei/deep/DeepTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/prototype/src/main/java/com/weiwei/deep/JinGuBang.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/prototype/src/main/java/com/weiwei/deep/Monkey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/prototype/src/main/java/com/weiwei/deep/SunWuKong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/prototype/src/main/java/com/weiwei/simple/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/prototype/src/main/java/com/weiwei/simple/ConcretePrototypeA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/prototype/src/main/java/com/weiwei/simple/Prototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/prototype/src/main/java/com/weiwei/simple/PrototypeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/proxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/proxy/src/main/java/com/weiwei/dbroute/IOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/proxy/src/main/java/com/weiwei/dbroute/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/proxy/src/main/java/com/weiwei/dbroute/OrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/proxy/src/main/java/com/weiwei/dbroute/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/proxy/src/main/java/com/weiwei/staticproxy/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/proxy/src/main/java/com/weiwei/staticproxy/FatherProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/proxy/src/main/java/com/weiwei/staticproxy/Son.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/test/ConcurrentExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/singleton/src/main/java/com/gupaoedu/vip/pattern/singleton/test/Pojo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/singleton/src/main/java/com/pattern/register/ContainerSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/singleton/src/main/java/com/pattern/register/ContainerSingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/singleton/src/main/java/com/pattern/threadlocal/ThreadLocalSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../xuexi/pattern/web/src/main/webapp/WEB-INF/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -235,7 +210,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="E:/" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -293,32 +268,6 @@
               <item name="factory" type="b2602c69:ProjectViewProjectNode" />
               <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="factory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="factory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="factory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="factory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="factory" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -328,7 +277,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582691948889" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582691964506" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../kejian/01.架构师内功心法/02.经典框架中常见的设计模式/1.设计模式总览及工厂模式详解/源码笔记/【课堂源码】设计模式总览及工厂模式详解/gupaoedu-vip-pattern-abstractfactory" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -389,18 +338,17 @@
       <option name="presentableId" value="Default" />
       <updated>1582609872703</updated>
       <workItem from="1582609876899" duration="585000" />
-      <workItem from="1582679088362" duration="7942000" />
+      <workItem from="1582679088362" duration="8551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8527000" />
+    <option name="totallyTimeSpent" value="9136000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20469083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -412,7 +360,7 @@
       <window_info anchor="bottom" id="Debug with VisualVM" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.32887402" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
